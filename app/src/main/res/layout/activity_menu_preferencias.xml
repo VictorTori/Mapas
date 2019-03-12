@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Personal">
+        <ListPreference
+            android:key="tamano"
+            android:title="Tamaño"
+            android:summary="Elige tu tamaño, a tu gusto"
+            android:dialogTitle="Indicar color"
+            android:entries="@array/tamano"
+            android:entryValues="@array/tamano2"/>
+        <EditTextPreference
+            android:key="opcion_nombre"
+            android:title="Nombre app"
+            android:summary="Cómo quieres que se llame la app"
+            android:dialogTitle="Introduce un valor" />
+        <ListPreference
+            android:key="color"
+            android:title="Color"
+            android:summary="Diseño de la aplicacion"
+            android:dialogTitle="Indicar color"
+            android:entries="@array/color"
+            android:entryValues="@array/colores"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

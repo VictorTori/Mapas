@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color">
+        <item>Blanco</item>
+        <item>Negro</item>
+        <item>Rojo</item>
+    </string-array>
+    <string-array name="colores">
+        <item>BLA</item>
+        <item>NGR</item>
+        <item>ROJ</item>
+    </string-array>
+    <string-array name="tamano">
+        <item>20</item>
+        <item>17</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="tamano2">
+        <item>20</item>
+        <item>17</item>
+        <item>15</item>
+    </string-array>
+</resources>

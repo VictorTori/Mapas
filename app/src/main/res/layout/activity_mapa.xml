@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    tools:context="com.victorbmm.aplicacionmapas.Mapa">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapaView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:center_latitude="40.413700"
+        mapbox:center_longitude="-3.696685"
+        mapbox:style_url="@string/style_mapbox_streets"
+        mapbox:zoom="12"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="223dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btUbicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:src="@drawable/compass"
+            tools:ignore="MissingConstraints,VectorDrawableCompat"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btRecorrido"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="16dp"
+            android:src="?attr/homeAsUpIndicator"
+            tools:ignore="MissingConstraints,VectorDrawableCompat"
+            tools:layout_editor_absoluteX="339dp"
+            tools:layout_editor_absoluteY="659dp" />
+
+    </com.mapbox.mapboxsdk.maps.MapView>
+
+</android.support.constraint.ConstraintLayout>
